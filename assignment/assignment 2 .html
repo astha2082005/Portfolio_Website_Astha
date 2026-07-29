@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Astha, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Astha">
+    <title>My Portfolio | Astha</title>
+    
+    <!--Open Graph Meta Tags for Social Media Sharing-->
+    <meta property="og:title" content="My Portfolio | Astha">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="https://astha-portfolio.netlify.app">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Astha">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpg">
+    <!--Favicon-->
+    <link rel="icon" type="image/jpg" href="../images/favicon.jpg">
+</head>
+<body>
+
+    <!--  NAVIGATION  -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <!--  HERO SECTION  -->
+    <header>
+        <h1>Hi, I'm Astha 👋.</h1>
+        <p>I'm a passionate web developer.</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </header>
+
+    <!--  ABOUT SECTION  -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="../images/profile.jpg" alt="Astha's Profile Picture" width="200" height="200">
+        <p>I am a web developer with experience in building responsive and user-friendly websites.</p>
+        <p>I enjoy creating web applications that provide great user experiences.</p>
+    </section>
+
+    <!--  SKILLS SECTION  -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+<table>
+    <thead>
+        <th><h2>Skills Table</h2></th>
+        <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+            <th>Years of Experience</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+            <td>1 Year</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Intermediate</td>
+            <td>1 Year</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+            <td>10 days</td>
+        </tr>
+         <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+            <td>10 days</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+            <td>10 days</td>
+        </tr>
+
+    </tbody>
+</table>
+        </ul>
+    </section>
+
+    <!-- LEARNING JOURNEY SECTION -->
+    <section id="learningJourney">
+    <h2>Learning Journey</h2>
+    <p>This is where I'll share my learning experiences.</p>
+
+    <ul>
+        <li>
+            <h3>2025</h3>
+            <ol>
+                <li>Started my degree in Computer Science</li>
+                <li>Learned the basics of programming with Python</li>
+                <li>Built a strong foundation in problem solving</li>
+                <li>Built my first Hotel Management System using Python</li>
+            </ol>
+        </li>
+
+        <li>
+            <h3>2026</h3>
+            <ol>
+                <li>Started learning C programming</li>
+                <li>Started learning HTML, CSS, and JavaScript</li>
+                <li>Learning Git and Version Control</li>
+            </ol>
+        </li>
+    </ul>
+    </section>
+
+    <!--  PROJECTS SECTION  -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A simple web application built with HTML, CSS, and JavaScript.</p>
+            <a href="../project1.html" class="btn">View Project</a>
+            <h3>Project 2</h3>
+            <p>A responsive portfolio website built with React.</p>
+            <a href="#" class="btn">View Project</a>
+            <h3>Project 3</h3>
+            <p>A basic calculator built using Python that performs addition, subtraction, multiplication, and division.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind? Let's collaborate!</p>
+
+    <form action="#" method="POST">
+
+        <label for="name">Your Name:</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required>
+
+        <label for="email">Your Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="">-- Select Subject --</option>
+            <option value="web-development">Web Development</option>
+            <option value="ui-ux-design">UI/UX Design</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="Type your message here..."
+            required>
+        </textarea>
+
+        <button type="submit">Send Message 🚀</button>
+
+    </form>
+
+    <p>Email: <a href="mailto:asthapriya282005@gmail.com">asthapriya282005@gmail.com</a></p>
+    <p>LinkedIn:<a href="https://www.linkedin.com/in/astha-priya-39890368/" target="_blank">astha-priya-39890368</a></p>
+    <p>GitHub:<a href="https://github.com/astha202005/">astha202005</a></p>
+</section>
+
+    <!--Registration Form-->
+     <form action="/submit" method="POST">
+        <h1>Registration Form</h1>
+ 
+    <!-- Text Input -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="John Doe" required>
+ 
+    <!-- Email Input -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8">
+ 
+    <!-- Number Input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="18" max="100">
+<!-- Radio Buttons (choose ONE) -->
+    <p>Experience Level:</p>
+    <input type="radio" id="beginner" name="level" value="beginner">
+    <label for="beginner">Beginner</label>
+    <input type="radio" id="intermediate" name="level" value="intermediate">
+    <label for="intermediate">Intermediate</label>
+ 
+    <!-- Checkboxes (choose MANY) -->
+    <p>Technologies:</p>
+    <input type="checkbox" id="html" name="tech" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="css" name="tech" value="css">
+    <label for="css">CSS</label>
+<!-- Dropdown Select -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="">-- Choose Country --</option>
+        <option value="in">India</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+    </select>
+ 
+    <!-- Textarea (multi-line text) -->
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Type here..."></textarea>
+<!-- File Upload -->
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc">
+ 
+    <!-- Date Picker -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+ 
+    <!-- Submit Button -->
+    <button type="submit">Send Message</button>
+    <button type="reset">Clear Form</button>
+ 
+</form>
+</body>
+</html>
+
+    <!--  FOOTER  -->
+    <footer>
+        <p>&copy; 2026 Astha. All rights reserved.</p>
+    </footer>
+</body>
+</html>

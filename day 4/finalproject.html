@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Astha, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Astha">
+    <title>My Portfolio | Astha</title>
+    
+    <!--Open Graph Meta Tags for Social Media Sharing-->
+    <meta property="og:title" content="My Portfolio | Astha">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="https://astha-portfolio.netlify.app">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Astha">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpg">
+    <!--Favicon-->
+    <link rel="icon" type="image/jpg" href="../images/favicon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--HEADER + NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">Astha</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- For Dark Mode -->
+             <button class="theme-toggle" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">🌙</button>
+
+             <!-- Mobile Menu --> 
+              <button class="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+                ☰
+              </button>
+        </nav>
+    </header>
+
+    <!--Main CONTENT-->
+    <main>
+        <!-- HERO SECTION -->
+         <section class="hero-section" id="hero">
+            <h1>Hi, I'm <span class="highlight">Astha Priya</span>👋</h1>
+            <p class="tagline">I build beautiful, fast, accessible websites and web applications.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+         </section>
+
+         <!-- ABOUT SECTION -->
+         <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <figure class="profile-figure">
+                    <img src="../images/profile.jpg" alt="Astha's Profile Picture" width="200" height="200">
+                    <figcaption>Astha-Web Developer</figcaption>
+                </figure>
+                <div class="about-text">
+                    <p>I'm a <strong>passionate</strong> Web developer ...</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- SKILLS SECTION -->
+         <section id="skills" class="skill-section">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-level="90">HTML5</div>
+                <div class="skill-item" data-level="85">HTML</div>
+                <div class="skill-item" data-level="80">CSS</div>
+                <div class="skill-item" data-level="75">JavaScript</div>
+                <div class="skill-item" data-level="70">React</div>
+            </div>
+         </section>
+
+         <!-- PROJECTS SECTION -->
+         <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card" data-category="web" data-year="2026">
+                    <h3>Weather App</h3>
+                    <img src="../images/weather-app.jpeg" alt="Weather App" width="300" height="200">
+                    <p>Real-time weather dashboard using OpenWeather API</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </article>
+            </div>
+         </section>
+
+         <!-- CONTACT SECTION -->
+         <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <form id="contact-form" action="#" method="POST" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+         </section>
+
+         <!-- FOOTER -->
+         <footer class="site-footer">
+            <p>&copy; <span class="footer-year">2026</span> Astha.
+                Build with HTML, CSS & JavaScript</p>
+
+                <nav aria-label="Social Links">
+                    <a href="mailto:asthapriya282005@gmail.com">Email</a>
+                    <a href="https://github.com/astha202005/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/astha-priya-39890368/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </nav>
+         </footer>
+    </main>
+    </body>
+    </html>
